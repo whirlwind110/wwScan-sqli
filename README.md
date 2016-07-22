@@ -8,14 +8,16 @@ Proxy被动注入检测工具
 
 ## Swoole
 
-### 编译安装
+1.编译安装
+
   git clone https://github.com/swoole/swoole-src.git
   cd swoole-src
   phpize
   ./configure
   make && make install
 
-### pecl
+2.pecl安装
+
   pecl install swoole
   
 
